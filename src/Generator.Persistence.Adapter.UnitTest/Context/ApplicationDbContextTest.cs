@@ -1,8 +1,7 @@
-﻿using Generator.DomainApi.Model;
-using Generator.Persistence.Adapter.UnitTest.Common;
+﻿using System.Threading.Tasks;
+using Generator.DomainApi.Model;
 using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
-using System.Threading.Tasks;
 
 namespace Generator.Persistence.Adapter.UnitTest.Context
 {

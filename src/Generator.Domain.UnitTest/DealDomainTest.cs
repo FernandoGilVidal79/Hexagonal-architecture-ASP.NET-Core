@@ -1,5 +1,5 @@
 using Generator.DomainApi.Model;
-using Generator.Persistence.Adapter.UnitTest.Common;
+using Generator.Persistence.Adapter;
 using NUnit.Framework;
 
 namespace Generator.Domain.UnitTest
