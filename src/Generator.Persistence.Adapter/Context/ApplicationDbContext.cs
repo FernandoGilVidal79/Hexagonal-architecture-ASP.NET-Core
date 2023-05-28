@@ -1,8 +1,8 @@
-﻿using Generator.DomainApi.Model;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using Generator.DomainApi.Model;
 using Generator.DomainApi.Port;
 using Microsoft.EntityFrameworkCore;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Generator.Persistence.Adapter.Context
 {

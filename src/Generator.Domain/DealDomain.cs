@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Generator.DomainApi.Model;
 using Generator.DomainApi.Port;
 
