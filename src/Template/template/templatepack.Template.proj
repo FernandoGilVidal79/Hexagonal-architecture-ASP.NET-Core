@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <PropertyGroup Label="PackageConfiguration">
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <PackageType>Template</PackageType>
     <TemplateSourceRoot>$(MSBuildThisFileDirectory)</TemplateSourceRoot>
   </PropertyGroup>
