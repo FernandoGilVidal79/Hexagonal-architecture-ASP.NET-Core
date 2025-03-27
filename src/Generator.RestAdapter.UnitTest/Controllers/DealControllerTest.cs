@@ -23,14 +23,14 @@ namespace Generator.RestAdapter.UnitTest.Controllers
         public void GetAllDealTestOkResult()
         {
             var response = _controller.Get();
-            Assert.IsInstanceOf<OkObjectResult>(response);
+            Assert.That(response, Is.InstanceOf<OkObjectResult>());
         }
 
         [Test]
         public void GetAllDealByIdTestOkResult()
         {
             var response = _controller.Get(1);
-            Assert.IsInstanceOf<OkObjectResult>(response);
+            Assert.That(response, Is.InstanceOf<OkObjectResult>());
         }
     }
 }

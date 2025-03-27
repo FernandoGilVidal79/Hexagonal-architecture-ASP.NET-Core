@@ -17,7 +17,7 @@ namespace Generator.DomainApi.UnitTest.Model
         public void TestSetAndGetName()
         {
             _dealInfo.Deals = GetDeals();
-            Assert.IsTrue(_dealInfo.Deals.Count > 0);
+            Assert.Equals(_dealInfo.Deals.Count > 0, true);
         }
 
         private static List<Deal> GetDeals()

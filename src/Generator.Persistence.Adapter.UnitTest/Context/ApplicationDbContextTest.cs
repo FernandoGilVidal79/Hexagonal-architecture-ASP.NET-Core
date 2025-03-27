@@ -13,12 +13,12 @@ namespace Generator.Persistence.Adapter.UnitTest.Context
             using var context = ApplicationDbContextFactory.Create();
             var Deal = new Deal();
             context.Deals.Add(Deal);
-            Assert.AreEqual(EntityState.Added, context.Entry(Deal).State);
+            Assert.Equals(EntityState.Added, context.Entry(Deal).State);
 
             var result = context.SaveChangesAsync();
-            Assert.AreEqual(1, result.Result);
-            Assert.AreEqual(Task.CompletedTask.Status, result.Status);
-            Assert.AreEqual(EntityState.Unchanged, context.Entry(Deal).State);
+            Assert.Equals(1, result.Result);
+            Assert.Equals(Task.CompletedTask.Status, result.Status);
+            Assert.Equals(EntityState.Unchanged, context.Entry(Deal).State);
 
         }
 
@@ -28,7 +28,7 @@ namespace Generator.Persistence.Adapter.UnitTest.Context
             using var context = ApplicationDbContextFactory.Create();
             var Deal = new Deal();
             context.Deals.Remove(Deal);
-            Assert.AreEqual(EntityState.Deleted, context.Entry(Deal).State);
+            Assert.Equals(EntityState.Deleted, context.Entry(Deal).State);
         }
     }
 }

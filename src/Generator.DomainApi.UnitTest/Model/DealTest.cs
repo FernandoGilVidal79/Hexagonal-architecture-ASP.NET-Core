@@ -18,14 +18,14 @@ namespace Generator.DomainApi.UnitTest.Model
         public void TestSetAndGetName()
         {
             _deal.Name = Name;
-            Assert.AreEqual(Name, _deal.Name);
+            Assert.Equals(Name, _deal.Name);
         }
 
         [Test]
         public void TestSetAndGetDescription()
         {
             _deal.Description = Description;
-            Assert.AreEqual(Description, _deal.Description);
+            Assert.Equals(Description, _deal.Description);
         }
     }
 }
