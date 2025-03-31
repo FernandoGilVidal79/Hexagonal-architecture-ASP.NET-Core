@@ -1,4 +1,4 @@
-﻿namespace Generator.DomainApi.Port
+﻿namespace $safeprojectname$.DomainApi.Port
 {
     public interface IApplicationDbContext
     {

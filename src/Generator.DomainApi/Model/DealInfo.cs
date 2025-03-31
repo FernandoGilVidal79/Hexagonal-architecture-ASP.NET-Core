@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Generator.DomainApi.Model
+namespace $safeprojectname$.DomainApi.Model
 {
     public class DealInfo
     {

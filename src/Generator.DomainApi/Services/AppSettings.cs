@@ -1,4 +1,4 @@
-﻿namespace Generator.DomainApi.Services
+﻿namespace $safeprojectname$.DomainApi.Services
 {
     public class AppSettings
     {

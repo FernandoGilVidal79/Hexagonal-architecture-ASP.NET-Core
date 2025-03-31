@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Generator.DomainApi.Port
+namespace $safeprojectname$.DomainApi.Port
 {
     public interface IRequestDeal<T>
     {

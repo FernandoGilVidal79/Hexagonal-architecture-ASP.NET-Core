@@ -1,8 +1,8 @@
-using Generator.DomainApi.Model;
-using Generator.Persistence.Adapter;
+using $safeprojectname$.DomainApi.Model;
+using $safeprojectname$.Persistence.Adapter;
 using NUnit.Framework;
 
-namespace Generator.Domain.UnitTest
+namespace $safeprojectname$.Domain.UnitTest
 {
     public class DealDomainTest
     {

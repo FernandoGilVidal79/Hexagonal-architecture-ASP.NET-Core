@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Generator.DomainApi.Model;
-using Generator.Persistence.Adapter.Context;
+using $safeprojectname$.DomainApi.Model;
+using $safeprojectname$.Persistence.Adapter.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace Generator.Persistence.Adapter
+namespace $safeprojectname$.Persistence.Adapter
 {
     public static class ApplicationDbContextFactory
     {

@@ -1,7 +1,7 @@
-﻿using Generator.DomainApi.Port;
+﻿using $safeprojectname$.DomainApi.Port;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Generator.Domain
+namespace $safeprojectname$.Domain
 {
     public static class DomainExtension
     {

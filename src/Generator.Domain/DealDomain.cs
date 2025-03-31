@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Generator.DomainApi.Model;
-using Generator.DomainApi.Port;
+using $safeprojectname$.DomainApi.Model;
+using $safeprojectname$.DomainApi.Port;
 
-namespace Generator.Domain
+namespace $safeprojectname$.Domain
 {
     public class DealDomain<T> : IRequestDeal<T> where T : Deal
     {

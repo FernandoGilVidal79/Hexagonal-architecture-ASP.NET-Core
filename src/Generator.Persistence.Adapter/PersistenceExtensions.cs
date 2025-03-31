@@ -1,9 +1,9 @@
-﻿using Generator.DomainApi.Port;
-using Generator.Persistence.Adapter.Context;
+﻿using $safeprojectname$.DomainApi.Port;
+using $safeprojectname$.Persistence.Adapter.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Generator.Persistence.Adapter
+namespace $safeprojectname$.Persistence.Adapter
 {
     public static class PersistenceExtensions
     {

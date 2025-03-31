@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Generator.Extension
+namespace $safeprojectname$.Extension
 {
     public static class ConfigureContainer
     {

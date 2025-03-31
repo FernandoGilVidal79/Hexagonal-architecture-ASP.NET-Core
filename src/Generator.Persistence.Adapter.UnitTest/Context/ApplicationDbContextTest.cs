@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Generator.DomainApi.Model;
+using $safeprojectname$.DomainApi.Model;
 using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
 
-namespace Generator.Persistence.Adapter.UnitTest.Context
+namespace $safeprojectname$.Persistence.Adapter.UnitTest.Context
 {
     public class ApplicationDbContextTest
     {

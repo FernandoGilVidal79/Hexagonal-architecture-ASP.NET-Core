@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Generator.DomainApi.Model;
-using Generator.DomainApi.Port;
+using $safeprojectname$.DomainApi.Model;
+using $safeprojectname$.DomainApi.Port;
 using Microsoft.EntityFrameworkCore;
 
-namespace Generator.Persistence.Adapter.Context
+namespace $safeprojectname$.Persistence.Adapter.Context
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext
     {

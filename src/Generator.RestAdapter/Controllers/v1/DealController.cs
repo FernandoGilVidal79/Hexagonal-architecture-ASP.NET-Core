@@ -1,8 +1,8 @@
-﻿using Generator.DomainApi.Model;
-using Generator.DomainApi.Port;
+﻿using $safeprojectname$.DomainApi.Model;
+using $safeprojectname$.DomainApi.Port;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Generator.RestAdapter.Controllers.v1
+namespace $safeprojectname$.RestAdapter.Controllers.v1
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]

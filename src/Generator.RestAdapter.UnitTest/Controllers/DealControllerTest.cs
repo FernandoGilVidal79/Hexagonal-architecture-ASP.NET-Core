@@ -1,11 +1,11 @@
-﻿using Generator.DomainApi.Model;
-using Generator.DomainApi.Port;
-using Generator.RestAdapter.Controllers.v1;
+﻿using $safeprojectname$.DomainApi.Model;
+using $safeprojectname$.DomainApi.Port;
+using $safeprojectname$.RestAdapter.Controllers.v1;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using NUnit.Framework;
 
-namespace Generator.RestAdapter.UnitTest.Controllers
+namespace $safeprojectname$.RestAdapter.UnitTest.Controllers
 {
     public class DealControllerTest
     {

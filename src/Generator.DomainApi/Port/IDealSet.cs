@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Generator.DomainApi.Model;
+using $safeprojectname$.DomainApi.Model;
 
-namespace Generator.DomainApi.Port
+namespace $safeprojectname$.DomainApi.Port
 {
     public interface IDealSet
     {

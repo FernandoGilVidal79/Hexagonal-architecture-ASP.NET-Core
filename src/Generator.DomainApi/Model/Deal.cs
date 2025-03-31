@@ -1,4 +1,4 @@
-﻿namespace Generator.DomainApi.Model
+﻿namespace $safeprojectname$.DomainApi.Model
 {
     public class Deal : BaseEntity<int>
     {

@@ -1,5 +1,5 @@
-﻿using Generator.DomainApi.Services;
-using Generator.Persistence.Adapter.Context;
+﻿using $safeprojectname$.DomainApi.Services;
+using $safeprojectname$.Persistence.Adapter.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -7,7 +7,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 
-namespace Generator.Extension
+namespace $safeprojectname$.Extension
 {
     public static class ConfigureServiceContainer
     {

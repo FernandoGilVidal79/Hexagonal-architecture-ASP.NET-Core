@@ -1,7 +1,7 @@
-﻿using Generator.DomainApi.Model;
+﻿using $safeprojectname$.DomainApi.Model;
 using NUnit.Framework;
 
-namespace Generator.DomainApi.UnitTest.Model
+namespace $safeprojectname$.DomainApi.UnitTest.Model
 {
     public class DealTest
     {

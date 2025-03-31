@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Generator.DomainApi
+namespace $safeprojectname$.DomainApi
 {
     public class BaseEntity<TKey>
     {

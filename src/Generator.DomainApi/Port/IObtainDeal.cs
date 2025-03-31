@@ -1,7 +1,7 @@
-﻿using Generator.DomainApi.Model;
+﻿using $safeprojectname$.DomainApi.Model;
 using System.Collections.Generic;
 
-namespace Generator.DomainApi.Port
+namespace $safeprojectname$.DomainApi.Port
 {
     public interface IObtainDeal<T>
     {
